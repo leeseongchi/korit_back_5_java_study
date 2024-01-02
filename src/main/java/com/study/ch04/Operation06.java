@@ -25,6 +25,7 @@ public class Operation06 {
 
         String name = null; // null = 주소가 없다 , 값이 비어있다.
         System.out.println(name == null);
+        System.out.println(name == null);
 
 
         String name1 = "김준일";
