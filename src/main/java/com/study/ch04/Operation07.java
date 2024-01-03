@@ -5,5 +5,6 @@ public class Operation07 {
         System.out.println("Git");
         System.out.println("Github");
         System.out.println("변경사항 추가");
+        System.out.println("변경사항 추가1");
     }
 }
