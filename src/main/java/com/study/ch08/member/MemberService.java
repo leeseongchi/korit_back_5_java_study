@@ -48,4 +48,5 @@ public class MemberService {
 
         return memberRepository.insert(members, member) > 0;
     }
+
 }

@@ -18,12 +18,12 @@ public class MemberMain {
             selectdMenu = scanner.nextLine();
 
             if ("1".equals(selectdMenu)) {
-               boolean responseData =  memberService.addMember();
-               if(responseData) {
-                   System.out.println("<<< 회원 등록완료 >>>");
-               } else {
-                   System.out.println("<<< 회원 등록취소 >>>");
-               }
+                boolean responseData = memberService.addMember();
+                if (responseData) {
+                    System.out.println("<<< 회원 등록완료 >>>");
+                } else {
+                    System.out.println("<<< 회원 등록취소 >>>");
+                }
             } else if("q".equalsIgnoreCase(selectdMenu)) { // equals는 대소문자 구분을 해준다.
                 break;
             } else {
