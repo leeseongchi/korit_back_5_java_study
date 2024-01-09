@@ -1,4 +1,4 @@
-package com.study.ch07.Car;
+package com.study.ch07.car;
 
 public class Car {
 
