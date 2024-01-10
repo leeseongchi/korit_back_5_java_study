@@ -26,7 +26,7 @@ public class Factory {
     public Car produce(String model) {
         autoCount++;
         return new Car(Integer.toString(DEFAULT_NUMBER + autoCount), model);
-//        return new Car("" + DEFAULT_NUMBER, autoCount), model);
+//        return new Car("" + DEFAULT_NUMBER + autoCount), model);
     }
 
     @Override

@@ -4,19 +4,17 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int H = scanner.nextInt();
-        int M = scanner.nextInt();
 
-        if (M < 45) {
-            H--;
-            M = 60 - (45-M);
-            if(H < 0) {
-                H = 23;
-            }
-            System.out.println(H + " " + M);
-        } else {
-            System.out.println(H + " " + (M - 45));
-        }
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("오븐이 시작하는 시간");
+        int sh = scanner.nextInt();
+        System.out.print("오븐이 시작하는 분");
+        int sm = scanner.nextInt();
+        System.out.print("오븐이 필요한 시간");
+        int om = scanner.nextInt();
+
+
+
+
     }
 }
