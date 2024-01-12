@@ -6,15 +6,17 @@ public class Main {
     public static void main(String[] args) {
 
         Scanner scanner = new Scanner(System.in);
-        System.out.print("오븐이 시작하는 시간");
-        int sh = scanner.nextInt();
-        System.out.print("오븐이 시작하는 분");
-        int sm = scanner.nextInt();
-        System.out.print("오븐이 필요한 시간");
-        int om = scanner.nextInt();
+        int a = scanner.nextInt();
+        int arr[] = new int[a];
 
-
-
+        for(int i = 0; i < a; i++) {
+            int A = scanner.nextInt();
+            int B = scanner.nextInt();
+            arr[i] = A + B;
+        }
+        for(int C : arr) {
+            System.out.println(C);
+        }
 
     }
 }
